@@ -5,48 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="nombre">
-    <h1>Damian <span>Rovira</span></h1>
-    </div>
-    <h3>Estudiante de desarrollo web y japones</h3>
+    <header>
+        <div class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Damian Rovira</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#introduccion">Introduccion</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre Mi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="introduccion" class="container mt-5">
+            <h2>Introduccion</h2>
+            <p>Actualmente soy estudiante de Desarrollo Web, mas especificamente de la rama Front-End.
+                Mi gusto por la programacion biene por mi aficion a la tecnologia debido a que me apasiona
+                saber como funcionan las cosas y que hay detras de ellas. <br> </b>
+            </p>    
+        </section>
+        <section id="about" class="container mt-5">
+            <h2>Sobre Mi</h2>
+            <p>
+                Mi nombre es Damian Rovira, actualmente tengo 18 años y soy de Uruguay.
+                Me considero una persona serena, estrategica y con una ambicion enorme por aprender y descubrir el mundo. <br> </b>
+                Algunos de mis hobbies son: Escuchar musica, es algo vital en mi dia a dia, me ayuda a concentrarme y a relajarme, disfruto bastante de la musica de Linkin Park. <img src="" alt="Linkin Park" style="width:100px;height:auto;"></i> <br> </b>
+                Los videojuegos son parte de mi vida desde que tengo uso de razon, mi juego favorito actualmente es Ghostwire Tokyo.
+                El anime, series como Attack on Titan, The Rising of the Shield Hero y Mob Psycho 100 son de mis favoritas.
+                Por ultimo, me gusta el futbol, soy aficionado del Bayern Munich y de la seleccion Uruguaya.
+            </p>
 
-    <hr>
-
-    <h1><span>Introduccion:</span></h1>
-
-    <div class="about">
-        <p>Mi nombre es Damian Rovira, soy un estudiante de desarrollo web a traves del programa educativo de Plan Ceibal, "Jovenes a Programar". Ademas de que estoy estudiando japones a traves de la apliacion Duolingo para en el futuro poder hacer mi vida en el pais nippon.
-            Mi siguiente meta luego de terminar con JaP es estudiar licenciatura en marketing para expandir mi curriculum y juntarlo con mis conocimientos en desarrollo web.
-        </p>
-    </div>
-
-    <div id="sobre-mi">
-    <h1>Sobre mi:</h1>
-    </div>
-
-    <div class="yo">
-        <p>Soy una persona que le gusta aprender cosas nuevas y que se motiva con las cosas que lo apasionan. Las tareas acerca de investigar llegan a ser de mis favoritas ya que descubro todo tipo de cosas</p>
-        <p>La musica es una parte fundamental de mi vida, es algo que lo necesito siempre en mi vida, soy fanatico de las bandas <span>Linkin Park, Metallica y BTS</span>. La musica siempre me lleva a desconectarme o a veces incluso reflexionar sobre mi mismo.</p>
-        <p>El futbol no es algo que me apasione pero me gusta y soy aficionado del club aleman <span>Bayern Munich.</span></p>
-        <p>Me encanta el anime y los videojuegos, son parte de mi vida desde que tengo uso de razon.</p>
-        <img src="Captura de pantalla (155).png" alt="imagen">
-        <img src="Captura de pantalla (154).png" alt="imagen2">
-        <img src="Captura de pantalla (156).png" alt="imagen3">
-    </div>
-    <div class="idiomas">
-        <h1>Idiomas:</h1>
-    </div>
-
-    <div class="idioma">
-        <p>Actualmente tengo conocimientos en tres idiomas los cuales son:</p>
-        <ul>
-            <li>Español: Este idioma es mi lengua natal ya que soy de Uruguay.</li>
-            <li>Ingles: El idioma ingles lo comence a aprender desde los tres años en mi escuela y actualmente cuento con tres certificados aprobados por la universidad de Cambridge.</li>
-            <li>Japones: Actualmente lo estoy cursando por la aplicacion Duolingo desde septiembre de 2023 para alcanzar mi meta de poder vivir en <span>Japon</span>.</li>
-        </ul>
-    </div>
-
+        </section>
+    </main> 
 </body>
 </html>
